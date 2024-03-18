@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>Q.10 Write a simple number guessing game. Provide a secret number and a guess. Based on those numbers give
+            players clues if their guess is higher, lower or correct.</h1>
+        Answer=>
+        <script>
+
+            var secretNumber = 4;
+            var guess = 5;
+            if (guess === secretNumber) {
+                document.write("Congratulations! You guessed the correct number.");
+            } else if (guess < secretNumber) {
+                document.write("Try a higher number.");
+            } else {
+                document.write("Try a lower number.");
+            }
+        </script>
+    </div>
+</body>
+
+</html>
